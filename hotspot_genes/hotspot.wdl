@@ -13,7 +13,7 @@ workflow hotspot {
         Int cpu = 24
         String memory = "128G"
         Int extra_disk_space = 32
-        String docker = "mparikhbroad/hotspot:latest"
+        String docker = "izabellaleahz/terra_workflows:main"
         Int preemptible = 2
     }
     String output_directory_stripped = sub(output_directory, "/+$", "")
